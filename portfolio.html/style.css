@@ -7,16 +7,36 @@ body{
 
 ul{
     display: flex;
-    padding: 16px;
+    padding: 18px;
     list-style-type: none;
     align-items: center;
     justify-content: space-between;
 }
 
-.center{
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(240, 106, 245);
+}
 
+.center{
+    align-items: center;
 }
 
 h1{
-    color: green;
+    padding: 5px;
+    align-items: center;
+    color: rgb(234, 131, 238);
+    display: flex;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    align-items: center;
+    padding: 16px;
 }
